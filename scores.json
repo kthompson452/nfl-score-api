@@ -1,0 +1,952 @@
+// https://api.foxsports.com/bifrost/v1/nfl/league/scores-segment/w12?apikey=jE7yBJVRNAwdDesMgTzTXUUSx1It41Fq
+
+{
+  "id": "w12",
+  "sectionList": [
+    {
+      "id": "w12thu",
+      "sectionDate": "2020-11-26T05:00:00Z",
+      "segmentId": "w12",
+      "selectionId": "w12",
+      "title": "WEEK 12",
+      "subtitle": "THU, NOV 26",
+      "menuTitle": "THU, NOV 26",
+      "menuTitlePrefix": "WEEK 12 - ",
+      "events": [
+        {
+          "template": "scores-team",
+          "id": "nfl9092",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9092",
+          "contentUri": "football/nfl/events/9092",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-26T17:30:00Z",
+          "sortKey": "1520201126173051009092",
+          "altSortKey": "1251202011261730009092",
+          "upperTeam": {
+            "name": "HOU",
+            "longName": "TEXANS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Texans.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "4-7",
+            "score": 41,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "DET",
+            "longName": "LIONS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Lions.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "4-7",
+            "score": 25,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/21",
+            "football/nfl/teams/34"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9092",
+            "contentUri": "football/nfl/events/9092",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9092",
+                "eventUri": "football/nfl/events/9092",
+                "homeUri": "football/nfl/teams/21",
+                "awayUri": "football/nfl/teams/34"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Texans QB Watson passes for 318 yds, 4 TD"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9076",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9076",
+          "contentUri": "football/nfl/events/9076",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-26T21:30:00Z",
+          "sortKey": "1520201126213037009076",
+          "altSortKey": "1237202011262130009076",
+          "upperTeam": {
+            "name": "WAS",
+            "longName": "FOOTBALL TEAM",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Redskins.vresize.80.80.medium.3.png",
+            "imageType": "image-logo",
+            "record": "4-7",
+            "score": 41,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "DAL",
+            "longName": "COWBOYS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Cowboys.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "3-8",
+            "score": 16,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/15",
+            "football/nfl/teams/19"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9076",
+            "contentUri": "football/nfl/events/9076",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9076",
+                "eventUri": "football/nfl/events/9076",
+                "homeUri": "football/nfl/teams/15",
+                "awayUri": "football/nfl/teams/19"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Washington score 14 late pts in 7 sec to finish strong"
+        }
+      ]
+    },
+    {
+      "id": "w12sun",
+      "sectionDate": "2020-11-29T05:00:00Z",
+      "segmentId": "w12",
+      "selectionId": "w12",
+      "subtitle": "SUN, NOV 29",
+      "subtitlePrefix": "WEEK 12 - ",
+      "menuTitle": "SUN, NOV 29",
+      "menuTitlePrefix": "WEEK 12 - ",
+      "events": [
+        {
+          "template": "scores-team",
+          "id": "nfl9052",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9052",
+          "contentUri": "football/nfl/events/9052",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T18:00:00Z",
+          "sortKey": "1520201129180020009052",
+          "altSortKey": "1220202011291800009052",
+          "upperTeam": {
+            "name": "TEN",
+            "longName": "TITANS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Titans.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "8-3",
+            "score": 45,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "IND",
+            "longName": "COLTS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Colts.vresize.80.80.medium.1.png",
+            "imageType": "image-logo",
+            "record": "7-4",
+            "score": 26,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/2",
+            "football/nfl/teams/8"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9052",
+            "contentUri": "football/nfl/events/9052",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9052",
+                "eventUri": "football/nfl/events/9052",
+                "homeUri": "football/nfl/teams/2",
+                "awayUri": "football/nfl/teams/8"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Titans RB Henry rushes for 178 yds, 3 TD"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9106",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9106",
+          "contentUri": "football/nfl/events/9106",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T18:00:00Z",
+          "sortKey": "1520201129180054009106",
+          "altSortKey": "1254202011291800009106",
+          "upperTeam": {
+            "name": "CAR",
+            "longName": "PANTHERS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Panthers.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "4-8",
+            "score": 27,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "MIN",
+            "longName": "VIKINGS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Vikings.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "5-6",
+            "score": 28,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/23",
+            "football/nfl/teams/32"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9106",
+            "contentUri": "football/nfl/events/9106",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9106",
+                "eventUri": "football/nfl/events/9106",
+                "homeUri": "football/nfl/teams/23",
+                "awayUri": "football/nfl/teams/32"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Clutch ending. "
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9208",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9208",
+          "contentUri": "football/nfl/events/9208",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T18:00:00Z",
+          "sortKey": "1520201129180028009208",
+          "altSortKey": "1228202011291800009208",
+          "upperTeam": {
+            "name": "LAC",
+            "longName": "CHARGERS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Chargers.vresize.80.80.medium.2.png",
+            "imageType": "image-logo",
+            "record": "3-8",
+            "score": 17,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "BUF",
+            "longName": "BILLS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Bills.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "8-3",
+            "score": 27,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/1",
+            "football/nfl/teams/13"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9208",
+            "contentUri": "football/nfl/events/9208",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9208",
+                "eventUri": "football/nfl/events/9208",
+                "homeUri": "football/nfl/teams/1",
+                "awayUri": "football/nfl/teams/13"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Bills QB Allen passes for 1 TD and rushes for 2 more"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9209",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9209",
+          "contentUri": "football/nfl/events/9209",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T18:00:00Z",
+          "sortKey": "1520201129180054009209",
+          "altSortKey": "1254202011291800009209",
+          "upperTeam": {
+            "name": "CLE",
+            "longName": "BROWNS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Browns.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "8-3",
+            "score": 27,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "JAX",
+            "longName": "JAGUARS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Jaguars.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "1-10",
+            "score": 25,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/31",
+            "football/nfl/teams/7"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9209",
+            "contentUri": "football/nfl/events/9209",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9209",
+                "eventUri": "football/nfl/events/9209",
+                "homeUri": "football/nfl/teams/31",
+                "awayUri": "football/nfl/teams/7"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Browns RB Chubb rushes for 144 yds, 1 TD"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9210",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9210",
+          "contentUri": "football/nfl/events/9210",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T18:00:00Z",
+          "sortKey": "1520201129180067009210",
+          "altSortKey": "1267202011291800009210",
+          "upperTeam": {
+            "name": "NYG",
+            "longName": "GIANTS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Giants.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "4-7",
+            "score": 19,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "CIN",
+            "longName": "BENGALS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Bengals.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "2-8-1",
+            "score": 17,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/6",
+            "football/nfl/teams/16"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9210",
+            "contentUri": "football/nfl/events/9210",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9210",
+                "eventUri": "football/nfl/events/9210",
+                "homeUri": "football/nfl/teams/6",
+                "awayUri": "football/nfl/teams/16"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Intense battle. Steadfast Giants defense limits Bengals to 40 rushing yds"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9211",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9211",
+          "contentUri": "football/nfl/events/9211",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T18:00:00Z",
+          "sortKey": "1520201129180058009211",
+          "altSortKey": "1258202011291800009211",
+          "upperTeam": {
+            "name": "MIA",
+            "longName": "DOLPHINS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Dolphins.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "7-4",
+            "score": 20,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "NYJ",
+            "longName": "JETS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Jets.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "0-11",
+            "score": 3,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/5",
+            "football/nfl/teams/3"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9211",
+            "contentUri": "football/nfl/events/9211",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9211",
+                "eventUri": "football/nfl/events/9211",
+                "homeUri": "football/nfl/teams/5",
+                "awayUri": "football/nfl/teams/3"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Dolphins air assault gets contributions from 10 different receivers"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9212",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9212",
+          "contentUri": "football/nfl/events/9212",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T18:00:00Z",
+          "sortKey": "1520201129180042009212",
+          "altSortKey": "1242202011291800009212",
+          "upperTeam": {
+            "name": "LV",
+            "longName": "RAIDERS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Raiders.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "6-5",
+            "score": 6,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "ATL",
+            "longName": "FALCONS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Falcons.vresize.80.80.medium.1.png",
+            "imageType": "image-logo",
+            "record": "4-7",
+            "score": 43,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/25",
+            "football/nfl/teams/12"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9212",
+            "contentUri": "football/nfl/events/9212",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9212",
+                "eventUri": "football/nfl/events/9212",
+                "homeUri": "football/nfl/teams/25",
+                "awayUri": "football/nfl/teams/12"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Falcons defense recovers 4 fumbles"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9213",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9213",
+          "contentUri": "football/nfl/events/9213",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T18:00:00Z",
+          "sortKey": "1520201129180029009213",
+          "altSortKey": "1229202011291800009213",
+          "upperTeam": {
+            "name": "ARI",
+            "longName": "CARDINALS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Cardinals.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "6-5",
+            "score": 17,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "NE",
+            "longName": "PATRIOTS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Patriots.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "5-6",
+            "score": 20,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/4",
+            "football/nfl/teams/18"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9213",
+            "contentUri": "football/nfl/events/9213",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9213",
+                "eventUri": "football/nfl/events/9213",
+                "homeUri": "football/nfl/teams/4",
+                "awayUri": "football/nfl/teams/18"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Folk converts game-winning FG for Patriots with 3 sec left"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9214",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9214",
+          "contentUri": "football/nfl/events/9214",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T21:05:00Z",
+          "sortKey": "1520201129210520009214",
+          "altSortKey": "1220202011292105009214",
+          "upperTeam": {
+            "name": "SF",
+            "longName": "49ERS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/49ers.vresize.80.80.medium.1.png",
+            "imageType": "image-logo",
+            "record": "5-6",
+            "score": 23,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "LAR",
+            "longName": "RAMS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Rams.vresize.80.80.medium.2.png",
+            "imageType": "image-logo",
+            "record": "7-4",
+            "score": 20,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/26",
+            "football/nfl/teams/28"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9214",
+            "contentUri": "football/nfl/events/9214",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9214",
+                "eventUri": "football/nfl/events/9214",
+                "homeUri": "football/nfl/teams/26",
+                "awayUri": "football/nfl/teams/28"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Gould converts game-winning FG for 49ers with 4 sec left"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9215",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9215",
+          "contentUri": "football/nfl/events/9215",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T21:05:00Z",
+          "sortKey": "1520201129210533009215",
+          "altSortKey": "1233202011292105009215",
+          "upperTeam": {
+            "name": "NO",
+            "longName": "SAINTS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Saints.vresize.80.80.medium.1.png",
+            "imageType": "image-logo",
+            "record": "9-2",
+            "score": 31,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "DEN",
+            "longName": "BRONCOS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Broncos.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "4-7",
+            "score": 3,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/10",
+            "football/nfl/teams/27"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9215",
+            "contentUri": "football/nfl/events/9215",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9215",
+                "eventUri": "football/nfl/events/9215",
+                "homeUri": "football/nfl/teams/10",
+                "awayUri": "football/nfl/teams/27"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Saints RB Murray rushes for 124 yds, 2 TD"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9216",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9216",
+          "contentUri": "football/nfl/events/9216",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-29T21:25:00Z",
+          "sortKey": "1520201129212506009216",
+          "altSortKey": "1206202011292125009216",
+          "upperTeam": {
+            "name": "KC",
+            "longName": "CHIEFS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Chiefs.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "10-1",
+            "score": 27,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "TB",
+            "longName": "BUCCANEERS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Buccaneers.vresize.80.80.medium.2.png",
+            "imageType": "image-logo",
+            "record": "7-5",
+            "score": 24,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/24",
+            "football/nfl/teams/11"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9216",
+            "contentUri": "football/nfl/events/9216",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9216",
+                "eventUri": "football/nfl/events/9216",
+                "homeUri": "football/nfl/teams/24",
+                "awayUri": "football/nfl/teams/11"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Chiefs WR Hill with 269 yds receiving, 3 TD"
+        },
+        {
+          "template": "scores-team",
+          "id": "nfl9097",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9097",
+          "contentUri": "football/nfl/events/9097",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-11-30T01:20:00Z",
+          "sortKey": "1520201130012000009097",
+          "altSortKey": "1200202011300120009097",
+          "upperTeam": {
+            "name": "CHI",
+            "longName": "BEARS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Bears.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "5-6",
+            "score": 25,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "GB",
+            "longName": "PACKERS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Packers.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "8-3",
+            "score": 41,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/22",
+            "football/nfl/teams/20"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9097",
+            "contentUri": "football/nfl/events/9097",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9097",
+                "eventUri": "football/nfl/events/9097",
+                "homeUri": "football/nfl/teams/22",
+                "awayUri": "football/nfl/teams/20"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Shootout: 9 TDs scored"
+        }
+      ]
+    },
+    {
+      "id": "w12mon",
+      "sectionDate": "2020-11-30T05:00:00Z",
+      "segmentId": "w12",
+      "selectionId": "w12",
+      "subtitle": "MON, NOV 30",
+      "subtitlePrefix": "WEEK 12 - ",
+      "menuTitle": "MON, NOV 30",
+      "menuTitlePrefix": "WEEK 12 - ",
+      "events": [
+        {
+          "template": "scores-team",
+          "id": "nfl9272",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9272",
+          "contentUri": "football/nfl/events/9272",
+          "contentType": "event",
+          "eventStatus": 3,
+          "eventTime": "2020-12-01T01:15:00Z",
+          "sortKey": "1520201201011521009272",
+          "altSortKey": "1221202012010115009272",
+          "upperTeam": {
+            "name": "SEA",
+            "longName": "SEAHAWKS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Seahawks.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "8-3",
+            "score": 23,
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "PHI",
+            "longName": "EAGLES",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Eagles.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "3-7-1",
+            "score": 17,
+            "isLoser": true,
+            "hasPossession": false
+          },
+          "statusLine": "FINAL",
+          "favoriteEntities": [
+            "football/nfl/teams/17",
+            "football/nfl/teams/14"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9272",
+            "contentUri": "football/nfl/events/9272",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9272",
+                "eventUri": "football/nfl/events/9272",
+                "homeUri": "football/nfl/teams/17",
+                "awayUri": "football/nfl/teams/14"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL",
+          "eventHeadline": "Eagles QB Wentz passes for 215 yds, 2 TD but can't get the W"
+        }
+      ]
+    },
+    {
+      "id": "w12wed",
+      "sectionDate": "2020-12-02T05:00:00Z",
+      "segmentId": "w12",
+      "selectionId": "w12",
+      "subtitle": "WED, DEC 2",
+      "subtitlePrefix": "WEEK 12 - ",
+      "menuTitle": "WED, DEC 2",
+      "menuTitlePrefix": "WEEK 12 - ",
+      "events": [
+        {
+          "template": "scores-team",
+          "id": "nfl9048",
+          "liveStartTime": "2020-12-02T20:10:00Z",
+          "uri": "https://api.foxsports.com/bifrost/v1/nfl/scorechip/nfl9048",
+          "contentUri": "football/nfl/events/9048",
+          "contentType": "event",
+          "eventStatus": 2,
+          "eventTime": "2020-12-02T20:40:00Z",
+          "sortKey": "1420201202204000009048",
+          "altSortKey": "1200202012022040009048",
+          "upperTeam": {
+            "name": "BAL",
+            "longName": "RAVENS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Ravens.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "6-4",
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "lowerTeam": {
+            "name": "PIT",
+            "longName": "STEELERS",
+            "logoUrl": "https://b.fssta.com/uploads/application/nfl/team-logos/Steelers.vresize.80.80.medium.0.png",
+            "imageType": "image-logo",
+            "record": "10-0",
+            "isLoser": false,
+            "hasPossession": false
+          },
+          "oddsLine": "PIT -10",
+          "overUnderLine": "TOTAL 40.5",
+          "tvStation": "NBC",
+          "favoriteEntities": [
+            "football/nfl/teams/9",
+            "football/nfl/teams/33"
+          ],
+          "isSuperSix": false,
+          "isTba": false,
+          "entityLink": {
+            "webUrl": "/nfl/boxscore?id=9048",
+            "contentUri": "football/nfl/events/9048",
+            "contentType": "event",
+            "layout": {
+              "path": "/layouts?type=layout&subtype=nflEventLayout",
+              "tokens": {
+                "id": "9048",
+                "eventUri": "football/nfl/events/9048",
+                "homeUri": "football/nfl/teams/9",
+                "awayUri": "football/nfl/teams/33"
+              }
+            },
+            "analyticsSport": "nfl",
+            "type": "entity"
+          },
+          "league": "NFL"
+        }
+      ]
+    }
+  ],
+  "currentSectionId": "w12mon"
+}
