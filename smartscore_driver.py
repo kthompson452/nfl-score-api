@@ -11,9 +11,6 @@ class Game:
         self.home_score = h_s
         self.away_score = a_s
 
-##################################
-#   WEEK12 CHANGED FOR TESTING   #
-##################################
 
 def getJson():
     
@@ -43,16 +40,18 @@ def getWeek():
     week18Start = "2021-01-07"
     if (date < datetime.strptime(week13Start, '%Y-%m-%d')):
         return("w13", "week13")################################
-    elif (date < datetime.strptime(week13Start, '%Y-%m-%d')):
+    elif (date < datetime.strptime(week14Start, '%Y-%m-%d')):
         return("w13", "week13")
-    elif (date < datetime.strptime(week13Start, '%Y-%m-%d')):
+    elif (date < datetime.strptime(week15Start, '%Y-%m-%d')):
         return("w14", "week14")
-    elif (date < datetime.strptime(week13Start, '%Y-%m-%d')):
+    elif (date < datetime.strptime(week16Start, '%Y-%m-%d')):
         return("w15", "week15")
-    elif (date < datetime.strptime(week13Start, '%Y-%m-%d')):
+    elif (date < datetime.strptime(week17Start, '%Y-%m-%d')):
         return("w16", "week16")
-    elif (date < datetime.strptime(week13Start, '%Y-%m-%d')):
+    elif (date < datetime.strptime(week18Start, '%Y-%m-%d')):
         return("w17", "week17")
+    else:
+        print(date)
 
 def nextGameDate():
     data = getJson()

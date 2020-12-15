@@ -28,7 +28,6 @@ def checkScores(curr, weekNumUrl, weekNumFb, ref):
 
     WEEK_data_raw = r.json()
 
-
     WEEK = []
 
     i = len(WEEK_data_raw['sectionList'])-1 # i = amount of days in the WEEK games are played on
@@ -62,15 +61,11 @@ def checkScores(curr, weekNumUrl, weekNumFb, ref):
     return(update)
 
 def updateDb(ref, WEEK, weekNum):
-    ref.push({
-        weekNum:{}
-    })
-    week_ref=ref.child(weekNum)
     gameCount = 1
     for game in WEEK:
         gameNum = "game"+str(gameCount)
-        game_ref = week_ref.child(gameNum)
-        week_ref.push({
+        game_ref = ref.child(gameNum)
+        ref.push({
             gameNum:{}
         })
         game_ref.set({
@@ -86,22 +81,26 @@ def updateCurr(weekNumFb):
     cred = credentials.Certificate('serviceAcc.json')
 
     # Initialize the app with a service account, granting admin privileges
-    firebase_admin.initialize_app(cred, {
+    app = firebase_admin.initialize_app(cred, {
         'databaseURL': 'https://smartscore-43464.firebaseio.com/'
     })
 
     # As an admin, the app has access to read and write all data, regradless of Security Rules
     
 
-    return(db.reference(f'schedule/{weekNumFb}/'))
+    return(db.reference(f'schedule/{weekNumFb}/'), app)
 
 def main():
     weekNumUrl, weekNumFb = driver.getWeek()
-    currScoresFB = updateCurr(weekNumFb)
+    currScoresFB, app = updateCurr(weekNumFb)
     run = True
     while (run):
         if(not driver.gameInProgress()):
             run = False
         if(checkScores(currScoresFB.get(), weekNumUrl, weekNumFb, currScoresFB)):
-            currScoresFB = updateCurr(weekNumFb)
+            firebase_admin.delete_app(app)
+            currScoresFB, app = updateCurr(weekNumFb)
         time.sleep(120)
+
+
+main()
